@@ -56,13 +56,13 @@ CREATE TABLE student (
 -- Insert values into table
 INSERT INTO student(s_name,semester,branch) VALUES ('Parimal',7,'CSE');
 INSERT INTO student(s_name,semester,branch) VALUES ('A',7,'CSE'),
-												   ('B',7,'IT'),
-												   ('C',7,'IT'),
-												   ('B',7,'ICT'),
-												   ('A',7,'IT'),
-												   ('D',5,'IT'),
-												   ('C',5,'IT'),
-												   ('E',3,'CIVIL');
+						   ('B',7,'IT'),
+						   ('C',7,'IT'),
+						   ('B',7,'ICT'),
+						   ('A',7,'IT'),
+						   ('D',5,'IT'),
+						   ('C',5,'IT'),
+						   ('E',3,'CIVIL');
 
 
 -- order by 
