@@ -1,0 +1,11 @@
+.container{
+    margin-top: 20px;
+    background-color: rgb(246, 246, 246);
+    padding: 20px;
+    box-shadow: 0px 1px 5px 1px;
+    border-radius: 20px;
+}
+
+.header{
+    text-align: center;
+}
