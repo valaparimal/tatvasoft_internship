@@ -1,0 +1,20 @@
+﻿using Mission.Entities.ViewModel.Login;
+using Mission.Entities.ViewModel;
+using Mission.Entities.ViewModels.User;
+
+namespace Mission.Services.IService
+{
+    public interface IUserService
+    {
+        Task<ResponseResult> LogiUser(UserLoginRequestModel model);
+        Task<List<UserResponseModel>> GetUsersAsync();
+
+        Task<bool> RegisterUserAsync(AddUserRequestModel model);
+
+        Task<UserResponseModel?> GetLoginUserDetailById(int userId);
+
+        Task<ResponseResult> UpdateUserAsync(UpdateUserRequestModel model, string imageUploadPath);
+
+        Task<bool> DeleteUser(int userId);
+    }
+}
